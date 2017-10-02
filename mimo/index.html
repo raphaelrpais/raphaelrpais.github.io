@@ -6,19 +6,47 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         
         <!-- CSS -->
-        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        
+            <!-- MDC -->
+            <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        
+            <!-- Slick -->
+            <link rel="stylesheet" href="plugins/slick/slick.css">
+            <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+        
         <link rel="stylesheet" href="mimo-style.css">
         
         <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
         
     </head>
     
-    <body>
+    <body class="mdc-typography">
         <main>
-            
             <div class="mdc-layout-grid mimo_grid">
                 <div class="mdc-layout-grid__inner">
+                    <!-- LOGO -->
+                    <div class="mdc-card mimo_logo-card mdc-elevation--z8">                        
+                        <div class="mdc-card__horizontal-block">
+                            <img class="mdc-card__media-item mdc-card__media-item--2x mimo_logo-card__media" src="./img/mimo_logo.svg">
+                            <section class="mdc-card__actions mdc-card__actions--vertical mimo_logo-card__actions--vertical">
+                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </button>
+                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </button>
+                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </button>
+                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                </button>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- MENU -->
                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mimo_grid mimo_height">
                         <button class="mdc-button mdc-button--raised mdc-button--accent mimo_menu-btn mimo_menu-btn-somos" data-mdc-auto-init="MDCRipple">
                             <img src="img/menu/mimo_menu_somos.svg" height="70px"><br/>
@@ -47,16 +75,60 @@
                             Contato
                         </button>
                     </div>
-                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8" style="background-image: url(img/Group-of-childrens-having-fun-in-the-park.jpg); background-size: cover">
-                        
+                    <!-- HOME -->
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8 mimo_home-slides">
+                        <div class="mdc-layout-grid__inner mimo_home-slide1">
+                            <div class="mdc-layout-grid__inner">
+                                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5 mdc-layout-grid__cell--align-bottom">
+                                    <div class="mdc-card mimo_slide-card">
+                                        <section class="mdc-card__primary">
+                                            <h1 class="mdc-card__title mdc-card__title--large">Lanche novo pra pivetada</h1>
+                                            <h2 class="mdc-card__subtitle">Subtitle here</h2>
+                                        </section>
+                                        <section class="mdc-card__supporting-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </section>
+                                        <section class="mdc-card__actions">
+                                            <button class="mdc-button mdc-button--compact mdc-card__action">saiba mais</button>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__inner" style="background-image: url(img/Group-of-childrens-having-fun-in-the-park.jpg); background-size: cover">
+                            <div class="mdc-layout-grid__cell"></div>
+                        </div>
+                        <div class="mdc-layout-grid__inner" style="background-image: url(img/Group-of-childrens-having-fun-in-the-park.jpg); background-size: cover">
+                            <div class="mdc-layout-grid__cell"></div>
+                        </div>
+                        <div class="mdc-layout-grid__inner" style="background-image: url(img/Group-of-childrens-having-fun-in-the-park.jpg); background-size: cover">
+                            <div class="mdc-layout-grid__cell"></div>
+                        </div>
                     </div>
                 </div>
             </div>
             
         </main>
-    </body>
+        
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
     
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <script>window.mdc.autoInit();</script>
+        <!-- Google MDC -->    
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script>window.mdc.autoInit();</script>
+        
+        <!-- Slick -->
+        <script src="plugins/slick/slick.min.js"></script>
+    
+        <!-- CUSTOM -->
+        <script src="mimo-scripts.js"></script>
+    
+        <!--FontAwesome-->
+        <script src="https://use.fontawesome.com/c3b46e0992.js"></script> 
+        
+    </body>
     
 </html>

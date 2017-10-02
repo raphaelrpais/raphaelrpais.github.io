@@ -4,10 +4,29 @@ html, body, main{height: 100%; margin: 0}
 
 /* MDC */
 
+:root{
+    --mdc-theme-primary: #192550;
+    --mdc-theme-secondary: #2E793F;
+}
+
 .mdc-layout-grid, .mdc-layout-grid__inner{height: 100%}
-.mdc-typography, .mdc-button{
+.mdc-typography,
+.mdc-typography--display4,
+.mdc-typography--display3,
+.mdc-typography--display2,
+.mdc-typography--display1,
+.mdc-typography--headline,
+.mdc-typography--title,
+.mdc-button{
     font-family: 'Bree Serif', serif;
 }
+
+/* Slick */
+.slick-list.draggable, .slick-track{height: 100%}
+.slick-prev{left: 25px; z-index: 1}
+.slick-next{right: 25px}
+.slick-dotted.slick-slider{margin-bottom: 0}
+.slick-dots{bottom: 25px}
 
 /* MIMO */
 
@@ -18,6 +37,8 @@ html, body, main{height: 100%; margin: 0}
     --mdc-layout-grid-gutter-desktop: 0px
 }
 
+/* MENU */ 
+ 
 .mimo_menu-btn{
     width: 100%; height: 33.3333%;
 }
@@ -43,4 +64,49 @@ html, body, main{height: 100%; margin: 0}
 
 .mimo_menu-btn-contato {
     background-color:  !important
+}
+
+/* LOGO */
+ 
+.mimo_logo-card {
+    background-color: white;
+    margin-top: 1.5rem; margin-left: auto;
+    width: 20rem;
+    right: 0;
+    position: absolute;
+    z-index: 999
+}
+
+.mimo_logo-card__media {
+    margin: auto 0;
+}
+
+.mimo_logo-card__actions--vertical {
+    margin: 8px 16px !important
+}
+
+
+/* HOME / SLIDES */
+
+.mimo_home-slide1 {
+    background-image: url(img/Group-of-childrens-having-fun-in-the-park.jpg);
+    background-size: cover;
+    background-color: white;
+}
+
+.mimo_slide-card {
+    background-color: rgba(255,255,255,0.7);
+    margin-bottom: 4rem
+}
+
+.mimo_overlay{
+    background: url(http://www.agenciapimenta.com.br/images/overlay.png);
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
 }
