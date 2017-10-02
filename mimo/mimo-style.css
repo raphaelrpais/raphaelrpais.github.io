@@ -5,8 +5,9 @@ html, body, main{height: 100%; margin: 0}
 /* MDC */
 
 :root{
-    --mdc-theme-primary: #192550;
-    --mdc-theme-secondary: #2E793F;
+    --mdc-theme-primary: #2E793F;
+    --mdc-theme-primary-light: #2E793F;
+    --mdc-theme-secondary: #192550;
 }
 
 .mdc-layout-grid, .mdc-layout-grid__inner{height: 100%}
@@ -85,8 +86,11 @@ html, body, main{height: 100%; margin: 0}
     margin: 8px 16px !important
 }
 
-
 /* HOME / SLIDES */
+
+.mimo-overlay {
+    background-image: url(img/mimo-overlay-b.png)
+}
 
 .mimo_home-slide1 {
     background-image: url(img/Group-of-childrens-having-fun-in-the-park.jpg);
@@ -97,16 +101,4 @@ html, body, main{height: 100%; margin: 0}
 .mimo_slide-card {
     background-color: rgba(255,255,255,0.7);
     margin-bottom: 4rem
-}
-
-.mimo_overlay{
-    background: url(http://www.agenciapimenta.com.br/images/overlay.png);
-    opacity: 0.4;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
 }
