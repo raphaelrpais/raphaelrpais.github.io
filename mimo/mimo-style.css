@@ -34,6 +34,10 @@ p,
     font-family: 'Raleway', sans-serif;
 }
 
+.mdc-layout-grid__cell--align-bottom {margin-bottom: 4rem}
+
+.mdc-button__icon {line-height: inherit !important}
+
 /* Slick */
 .slick-list.draggable, .slick-track{height: 100%}
 .slick-prev{left: 25px; z-index: 1}
@@ -55,23 +59,23 @@ p,
 }
 
 .mimo_menu-btn-instalacoes {
-    background-color: #fdbf0d !important
+    background-color: #fdbf0d !important;
 }
 
 .mimo_menu-btn-atividades {
-    background-color: #f44545 !important
+    background-color: #f44545 !important;
 }
 
 .mimo_menu-btn-pediatria {
-    background-color: #0fdb79 !important
+    background-color: #0fdb79 !important;
 }
 
 .mimo_menu-btn-cardapio {
-    background-color: #e3328c !important
+    background-color: #e3328c !important;
 }
 
 .mimo_menu-btn-contato {
-    background-color: #000 !important
+    background-color: #000000 !important;
 }
 
 /* LOGO */
@@ -108,8 +112,4 @@ p,
 .mimo_slide-card {
     background-color: rgba(255,255,255,1);
     margin-bottom: .5rem
-}
-
-.mdc-layout-grid__cell--align-bottom {
-    margin-bottom: 4rem
 }
