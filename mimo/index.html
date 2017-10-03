@@ -19,35 +19,36 @@
         <!-- FONTS -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         
     </head>
     
     <body class="mdc-typography">
         <main>
-            <div class="mdc-layout-grid mimo_grid">
+            <div class="mdc-layout-grid">
                 <div class="mdc-layout-grid__inner">
                     <!-- LOGO -->
                     <div class="mdc-card mimo_logo-card mdc-elevation--z8">                        
                         <div class="mdc-card__horizontal-block">
                             <img class="mdc-card__media-item mdc-card__media-item--2x mimo_logo-card__media" src="./img/mimo_logo.svg">
                             <section class="mdc-card__actions mdc-card__actions--vertical mimo_logo-card__actions--vertical">
-                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                <a role="button" class="mdc-button mdc-button--compact mdc-card__action" target="_blank" href="https://facebook.com/samuelljackson">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </button>
-                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                </a>
+                                <a role="button" class="mdc-button mdc-button--compact mdc-card__action" target="_blank" href="https://instagram.com/samuelljackson">
                                     <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </button>
-                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                </a>
+                                <a role="button" class="mdc-button mdc-button--compact mdc-card__action" target="_blank" href="https://twitter.com/samuelljackson">
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </button>
-                                <button class="mdc-button mdc-button--compact mdc-card__action">
+                                </a>
+                                <a role="button" class="mdc-button mdc-button--compact mdc-card__action" target="_blank" href="mailto:contato@mimomaternal.com.br">
                                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                </button>
+                                </a>
                             </section>
                         </div>
                     </div>
                     <!-- MENU -->
-                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mimo_grid mimo_height">
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mimo_height">
                         <button class="mdc-button mdc-button--raised mdc-button--accent mimo_menu-btn mimo_menu-btn-somos" data-mdc-auto-init="MDCRipple">
                             <img src="img/menu/mimo_menu_somos.svg" height="70px"><br/>
                             Quem Somos
@@ -61,7 +62,7 @@
                             Atividades
                         </button>
                     </div>
-                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mimo_grid mimo_height">
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mimo_height">
                         <button class="mdc-button mdc-button--raised mdc-button--accent mimo_menu-btn mimo_menu-btn-pediatria" data-mdc-auto-init="MDCRipple">
                             <img src="img/menu/mimo_menu_pediatria.svg" height="70px"><br/>
                             Pediatria
@@ -83,18 +84,18 @@
                                 <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5 mdc-layout-grid__cell--align-bottom">
                                     <div class="mdc-card mimo_slide-card">
                                         <section class="mdc-card__primary">
-                                            <h1 class="mdc-card__title mdc-card__title--large">Lanche novo pra pivetada</h1>
-                                            <h2 class="mdc-card__subtitle">Subtitle here</h2>
+                                            <h1 class="mdc-card__title mdc-card__title--large mdc-typography--headline">Lanche novo pra pivetada</h1>
+                                            <h2 class="mdc-card__subtitle mdc-typography--subheading1">Subtitle here</h2>
                                         </section>
-                                        <section class="mdc-card__supporting-text">
+                                        <section class="mdc-card__supporting-text mdc-typography--body1">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                         </section>
                                         <section class="mdc-card__actions">
-                                            <button class="mdc-button mdc-button--compact mdc-card__action">saiba mais</button>
-                                            <button class="mdc-button mdc-button--compact mdc-card__action mdc-button--primary">outras notícias</button>
+                                            <button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">saiba mais</button>
                                         </section>
                                     </div>
+                                    <button class="mdc-button mdc-button--raised" data-mdc-auto-init="MDCRipple">Mais Notícias</button>
                                 </div>
                             </div>
                         </div>
