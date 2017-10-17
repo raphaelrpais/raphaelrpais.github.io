@@ -2,7 +2,9 @@
 $(document).ready(function(){
     $('.mimo_home-slides').slick({
         adaptativeHeight: true,
-        autoplay: false,
+        autoplay: true,
+        speed: 1000,
+        autoplaySpeed: 5000,
         arrows: false,
         dots: true
     });
